@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:id="@+id/tambahedittext"
+    tools:context=".buatdatacuy">
+
+    <!-- judul data  -->
+    <EditText
+        android:id="@+id/juduldata"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/judul"
+        android:textSize="12sp"
+        tools:ignore="LabelFor,TextSizeCheck" />
+
+    <!-- Data angka -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/juduldata"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/datanommor"
+        android:text="@string/data_angka"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:hint="Nama Data Angka : "
+        android:id="@+id/namadataangka"
+        android:layout_below="@id/datanommor"
+        android:textSize="12sp"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:id="@+id/masukanangka1"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namadataangka"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/masukanangka1"
+        android:inputType="number"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/masukanangka2"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namadataangka"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/strip"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/masukanangka1"
+        android:inputType="number"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namadataangka"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-174dp"
+        android:layout_toEndOf="@id/masukanangka1"
+        android:text="@string/strip"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <!-- jenis kategori -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masukanangka1"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/Kategoridata"
+        android:text="@string/kategorridata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+
+    <!-- komplemen1 -->
+
+    <EditText
+        android:id="@+id/jeniskategori"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/Kategoridata"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/jenis_kategori"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <TextView
+        android:id="@+id/samadengan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/strip"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="-174dp"
+        android:layout_toEndOf="@id/jeniskategori"
+        android:text="@string/samadeng"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:ignore="VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/namakategoricuy2"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/Kategoridata"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <EditText
+        android:id="@+id/namakategoricuy3"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy2"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tamabahineditdata"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy2"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="-39dp"
+        android:layout_toEndOf="@id/masukanangka1"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="@string/tambah"
+        android:minWidth="48dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,DuplicateSpeakableTextCheck" />
+
+    <!-- komplemen2 -->
+
+    <EditText
+        android:id="@+id/jeniskategori2"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy3"
+        android:layout_marginTop="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/jenis_kategori"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <TextView
+        android:id="@+id/samadengan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namakategoricuy3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-174dp"
+        android:layout_toEndOf="@id/jeniskategori"
+        android:text="@string/samadeng"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/namakategoricuy4"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy3"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namakategoricuy5"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy4"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:visibility="gone"
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tamabahineditdata2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy4"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="-39dp"
+        android:layout_toEndOf="@id/masukanangka1"
+        android:clickable="true"
+        android:minWidth="48dp"
+        android:hint="@string/tambah3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"
+        android:focusable="true" />
+
+    <!-- komplemen 3 -->
+
+    <EditText
+        android:id="@+id/jeniskategori3"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy5"
+        android:layout_marginTop="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/jenis_kategori"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <TextView
+        android:id="@+id/samadengan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namakategoricuy5"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-174dp"
+        android:layout_toEndOf="@id/jeniskategori"
+        android:text="@string/samadeng"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/namakategoricuy6"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy5"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namakategoricuy7"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy6"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:layout_toStartOf="@id/samadengan"
+        android:autofillHints=""
+        android:visibility="gone"
+        android:ems="10"
+        android:hint="@string/namekategorii"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tamabahineditdata3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoricuy6"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="-39dp"
+        android:layout_toEndOf="@id/masukanangka1"
+        android:clickable="true"
+        android:minWidth="48dp"
+        android:hint="@string/tambah4"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"
+        android:focusable="true" />
+
+    <!--button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namakategoricuy7"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/jeniskategori"
+        android:text="@string/menyimpan"
+        android:id="@+id/save"
+        android:textSize="12sp" />
+
+
+
+
+</RelativeLayout>
+
+

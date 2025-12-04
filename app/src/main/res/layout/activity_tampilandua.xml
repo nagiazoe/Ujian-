@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coba"
+    tools:context=".tampilandua">
+
+    <ImageButton
+        android:id="@+id/buatdata"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buats"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buatdata"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/start"
+        android:contentDescription="@string/start"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/LiatData"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/start"
+        android:layout_marginTop="121dp"
+        android:background="@drawable/liats"
+        android:contentDescription="@string/app_name"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/hasildata"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/LiatData"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/liats"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,SpeakableTextPresentCheck"
+        android:contentDescription="TODO" />
+
+
+</RelativeLayout>

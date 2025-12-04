@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startt"
+    android:layout_marginTop="25dp"
+    android:layout_marginStart="10dp">
+    <!-- namadoank -->
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nama"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="LabelFor,TextSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <!-- data nomor-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/datanommor"
+        android:text="@string/dataangka"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/dataangkastart"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/datanommor"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/masukan_data_angka"
+        android:inputType="number"
+        android:textSize="12sp"/>
+
+    <!-- kategori data-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dataangkastart"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/Kategoridatastart"
+        android:text="@string/kategorridata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namaketegoristart"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/Kategoridatastart"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/jenis_kategori"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/namakategoristart2"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namaketegoristart"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:hint="@string/jenis_kategori1"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namakategoristart3"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoristart2"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:hint="@string/jenis_kategori2"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namakategoristart4"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoristart3"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:hint="@string/jenis_kategori3"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/namakategoristart5"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoristart4"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-170dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:hint="@string/jenis_kategori4"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/namaketegoristart"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="-38dp"
+        android:clickable="true"
+        android:hint="@string/plus2"
+        android:minWidth="48dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,TextSizeCheck"
+        android:focusable="true" />
+
+    <!-- button-->
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/namakategoristart5"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/add"
+        android:textSize="12sp"
+        tools:ignore="TextSizeCheck" />
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">apkdata</string>
+    <string name="buat_kategori_data_milik_mu">Buat Kategori Data Milik Mu</string>
+    <string name="masukan_data_yang_kamu_miliki">Masukan Data Yang Kamu Miliki</string>
+    <string name="lihat_data_milik_mu">lihat Data Milik Mu</string>
+    <string name="online">online</string>
+    <string name="offline">offline</string>
+    <string name="judul_data">Judul Data</string>
+    <string name="data_nomor">Data Nomor :</string>
+    <string name="masukan_angka">Masukan Angka</string>
+    <string name="masukanangka">Masukan Angka</string>
+    <string name="todo">TODO</string>
+    <string name="nama_kategori">Nama Kategori :</string>
+    <string name="kategori_data">Kategori Data :</string>
+    <string name="save">SAVE</string>
+    <string name="samadengan">=</string>
+    <string name="namakategori">Nama Kategori :</string>
+    <string name="kategoridata">Kategori Data :</string>
+    <string name="juduldata">Judul Data :</string>
+    <string name="datanomor">Data Nomor :</string>
+    <string name="strip">-</string>
+    <string name="masukanangka1">Masukan Angka :</string>
+    <string name="kategorridata">Kategori Data</string>
+    <string name="namakategor">Nama Kategori :</string>
+    <string name="samadeng">=</string>
+    <string name="jenis_kategori">Jenis Kategori :</string>
+    <string name="namekategorii">Nama kategori :</string>
+    <string name="menyimpan">SAVE</string>
+    <string name="judul">Judul Data :</string>
+    <string name="data_angka">Data Angka</string>
+    <string name="dataangka">Data Angka :</string>
+    <string name="nama">Nama :</string>
+    <string name="masukan_data_angka">Masukan Data Angka :</string>
+    <string name="add">ADD</string>
+    <string name="finish">Finish</string>
+    <string name="data_saya">Data Saya</string>
+    <string name="hasil_data">HASIL DATA</string>
+    <string name="start" />
+    <string name="start2" />
+    <string name="tambah">+</string>
+    <string name="tambah2">+</string>
+    <string name="tambah3">+</string>
+    <string name="tambah4">+</string>
+    <string name="plus">+</string>
+    <string name="nama1">Nama</string>
+    <string name="nama2">Nama</string>
+    <string name="jenis_kategori1">Jenis Kategori :</string>
+    <string name="jenis_kategori2">Jenis Kategori :</string>
+    <string name="jenis_kategori3">Jenis Kategori :</string>
+    <string name="jenis_kategori4">Jenis Kategori :</string>
+    <string name="plus2">+</string>
+    <string name="search">search</string>
+    <array name="item_option">
+        <item>Ubah</item>
+        <item>Hapus</item>
+        <item>Batal</item>
+    </array>
+    <array name="item_option2">
+        <item>Ubah</item>
+        <item>Hapus</item>
+        <item>Batal</item>
+    </array>
+</resources>
