@@ -10,7 +10,7 @@ Android Studio (Gradle)
 
 # Clone Project
 ```sh
-git clone https://github.com/username/project-name.git
+git clone https://github.com/nagiazoe/Ujian-.git
 cd project-name
 ```
 # Database: SQLite
